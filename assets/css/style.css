@@ -9,26 +9,28 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 2.2em;
+  font-size: 3.1em;
   font-weight: 500;
+  margin: .2rem auto;
 }
 .header img{
   opacity: 1;
   height: 45rem;
 }
 main{
-  margin: 6rem;
+  margin: 3rem 6rem;
 }
 .imagen-texto{
   display: flex;
 }
 .parrafo-imagen-iguana{
-  padding: 8em 2em;
+  padding: 2em 4em;
+  vertical-align: middle;
+  width: 50%;
 }
-.imagen-iguana-texto{
-  padding: 8em 2em;
-  margin: 4em;
-  width: 30%;
+.imagen-iguana-texto img{
+  width: 70%;
+  margin: 0 auto;
 }
 .caracteristicas{
   text-align: center;
