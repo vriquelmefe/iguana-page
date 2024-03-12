@@ -27,26 +27,28 @@ body {
   padding-bottom: 0;
   border-bottom: 0;
 }
+.desc-section, .icons-section, .imagenes{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
 .desc-section {
-  text-align: left;
   background: #000000;
   color: #ffffff;
   white-space: nowrap;
   padding: 0.25rem 0.15rem;
-}
-
-.texto, .foto, .cafe {
-  display: inline-block;
+  vertical-align: middle;
 }
 
 .texto {
-  width: 37%;
-  vertical-align: middle;
+  width: 45%;
   margin-left: 10%;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  /* margin-top: 3rem; */
+  /* margin-bottom: 3rem; */
   white-space: normal;
+  text-align: start;
 }
 
 .foto {
@@ -55,9 +57,8 @@ body {
 }
 
 .iguana-uno {
-  width: 42%;
+  width: 50%;
   vertical-align: middle;
-  padding: 2rem 7rem;
 }
 
 p {
@@ -65,13 +66,12 @@ p {
   font-size: 1rem;
 }
 
-.icons-section {
+.icons-caract-section {
   text-align: center;
   background: #1e1a13;
   color: #ffffff;
   margin: 0;
 }
-
 .tres {
   box-sizing: border-box;
   width: 26%;
